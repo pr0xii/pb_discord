@@ -1672,3 +1672,78 @@ Voice Channel: User Speaking: StatusEverywhere Fix
 [d="M12 2.00305C6.486 2.00305 2 6.48805 2 12.0031V20.0031C2 21.1071 2.895 22.0031 4 22.0031H6C7.104 22.0031 8 21.1071 8 20.0031V17.0031C8 15.8991 7.104 15.0031 6 15.0031H4V12.0031C4 7.59105 7.589 4.00305 12 4.00305C16.411 4.00305 20 7.59105 20 12.0031V15.0031H18C16.896 15.0031 16 15.8991 16 17.0031V20.0031C16 21.1071 16.896 22.0031 18 22.0031H20C21.104 22.0031 22 21.1071 22 20.0031V12.0031C22 6.48805 17.514 2.00305 12 2.00305Z"] {
 	d: path(var(--headphone))
 }
+
+/* Custom Message Box*/
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL, [placeholder^="Search"]),
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL, [placeholder^="Search"]),
+.input-3r5zZY,
+.input-2g-os5 {
+	background-color: #01020a60 !important;
+	transition: background-color 0.2s ease, border-color 0.2s ease !important;
+	border: 1px solid transparent !important;
+	outline: none !important;
+}
+
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL, [placeholder^="Search"]):hover,
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL, [placeholder^="Search"]):hover,
+.input-3r5zZY:hover,
+.input-2g-os5 {
+	border-color: #00c4e69d !important;
+	background-color: rgb(32, 32, 32) !important;
+}
+
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL, [placeholder^="Search"]):focus-within,
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxg, [placeholder^="Search"]L):focus-within,
+.input-3r5zZY:focus-within,
+.input-2g-os5 {
+	background-color: #444444c2 !important;
+	border-color: var(--color-brand-lighter) !important;
+}
+
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL, [placeholder^="Search"]) {
+	border: 1px solid transparent;
+	border-radius: 25px;
+}
+
+.input-3r5zZY {
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+
+[class="colorMuted-20987_ size12-oc4dx4 cta-25g9OT"],
+.container-2rCwVJ .clear-1JYfB5 {
+	display: none;
+}
+
+.searchBoxInput-P0mWHW {
+	color: white !important;
+}
+
+/* Bubble Messages */
+
+.cozyMessage-1DWF9U .contents-2MsGLg>.markup-eYLPri:not(:empty) {
+	background-color: rgba(1, 94, 110, 0.233);
+	display: inline-block;
+	margin: 0;
+	max-width: 100%;
+	width: auto !important;
+	padding: 10px;
+	border-radius: 20px;
+    color:rgb(255, 255, 255);
+}
+
+.welcomeCTAButtonOuter-3pJkMq {
+	background-color: #191919 !important;
+	border: 1px solid #444444;
+	margin-top: 5px;
+	border-radius: 25px !important;
+	transition: 0.5s ease;
+}
+
+.welcomeCTAButtonOuter-3pJkMq:hover {
+	background-color: #252525 !important;
+	border: 1px solid #444444;
+	margin-top: 5px;
+	border-radius: 5px !important;
+	transition: 0.5s ease;
+}
